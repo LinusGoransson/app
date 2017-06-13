@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">RaspApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="textNummer">1</string>
+    <string name="button_id">Select</string>
+    <string name="button_Next">Next</string>
+    <string name="button_Prev">Previous</string>
+    <string name="funktion_Text">Function</string>
+    <string name="funktion_Nr_Text">1</string>
+    <string name="funktion_Info">Collect Pallet</string>
+    <string name="menuText">Menu</string>
+    <string name="buttonImage">+</string>
+    <string name="func1">Collect Pallet</string>
+    <string name="func2">Leave Pallet</string>
+    <string name="func3">Change Side</string>
+    <string name="func4">Auto Collect</string>
+    <string name="func5">Pack Pallet</string>
+    <string name="func6">Collect Num</string>
+    <string name="func7">Auto Leave</string>
+    <string name="func8">Manual Run</string>
+    <string name="func9">Count Pallet</string>
+    <string name="func10">Change Battery</string>
+    <string name="func11">Power On/Off</string>
+    <string name="func12">Function 12</string>
+    <string name="usernameText">Username</string>
+    <string name="passwordText">Password</string>
+    <string name="buttonLogin">Login</string>
+    <string name="menuOption1">SET LAST SAT/SPAN</string>
+    <string name="menuOption2">BLOCK FUNCTIONS</string>
+    <string name="menuOption3">DM-PARAMETERS</string>
+    <string name="run">Run</string>
+    <string name="tab1text">SELECT</string>
+    <string name="tab2text">FUNCTION</string>
+    <string name="tab3text">SETTINGS</string>
+    <string name="switchfunc1">F_1</string>
+    <string name="switchfunc2">F_2</string>
+    <string name="switchfunc3">F_3</string>
+    <string name="switchfunc4">F_4</string>
+    <string name="switchfunc5">F_5</string>
+    <string name="switchfunc6">F_6</string>
+    <string name="switchfunc7">F_7</string>
+    <string name="switchfunc8">F_8</string>
+    <string name="switchfunc9">F_9</string>
+    <string name="switchfunc10">F10</string>
+    <string name="switchfunc11">F11</string>
+    <string name="switchfunc12">F12</string>
+    <string name="functionsText">Functions</string>
+    <string name="selectText">Select</string>
+    <string name="funcStatRun">Function is running</string>
+    <string name="funcStatNotRun">No function is running</string>
+    <string name="ErrorMessage">Error</string>
+    <string-array name="spinner_items">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+</resources>

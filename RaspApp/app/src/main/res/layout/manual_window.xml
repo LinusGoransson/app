@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#878787"
+    android:fillViewport="false">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Up"
+        android:id="@+id/buttonUp"
+        android:layout_marginTop="52dp"
+        android:onClick="onButtonManualUp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down"
+        android:id="@+id/buttonDown"
+        android:onClick="onButtonManualDown"
+        android:layout_marginBottom="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/buttonIn"
+        android:layout_toStartOf="@+id/buttonIn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Out"
+        android:id="@+id/buttonOut"
+        android:layout_marginTop="88dp"
+        android:layout_below="@+id/buttonUp"
+        android:layout_toLeftOf="@+id/buttonUp"
+        android:layout_toStartOf="@+id/buttonUp"
+        android:onClick="onButtonManualOut" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In"
+        android:id="@+id/buttonIn"
+        android:layout_alignTop="@+id/buttonOut"
+        android:layout_toRightOf="@+id/buttonUp"
+        android:layout_toEndOf="@+id/buttonUp" />
+</RelativeLayout>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#878787"
+    android:fillViewport="false">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/functionsText"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+        <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc1"
+        android:id="@+id/switchfunc1"
+        android:layout_marginTop="42dp"
+        android:checked="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="59dp"
+        android:scaleX="2"
+        android:scaleY="2"
+            android:textOff="F_1"
+            android:textOn="F_1"/>
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc2"
+        android:id="@+id/switchfunc2"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="221dp"
+        android:checked="false"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_2"
+        android:textOn="F_2"/>
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc3"
+        android:id="@+id/switchfunc3"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="59dp"
+        android:checked="false"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_3"
+        android:textOn="F_3"/>
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc4"
+        android:id="@+id/switchfunc4"
+        android:checked="false"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="221dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_4"
+        android:textOn="F_4"/>
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc5"
+        android:id="@+id/switchfunc5"
+        android:checked="false"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="59dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_5"
+        android:textOn="F_5"/>
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc6"
+        android:id="@+id/switchfunc6"
+        android:checked="false"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="221dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_6"
+        android:textOn="F_6"/>
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc7"
+        android:id="@+id/switchfunc7"
+        android:checked="false"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="59dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_7"
+        android:textOn="F_7" />
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc8"
+        android:id="@+id/switchfunc8"
+        android:checked="false"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="221dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_8"
+        android:textOn="F_8" />
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc9"
+        android:id="@+id/switchfunc9"
+        android:checked="false"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="59dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_9"
+        android:textOn="F_9"
+  />
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc10"
+        android:id="@+id/switchfunc10"
+        android:checked="false"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="221dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_10"
+        android:textOn="F_10" />
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc11"
+        android:id="@+id/switchfunc11"
+        android:checked="false"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="59dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_11"
+        android:textOn="F_11"
+         />
+
+    <ToggleButton
+        android:onClick="onSwitchClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchfunc12"
+        android:id="@+id/switchfunc12"
+        android:checked="false"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="221dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff="F_12"
+        android:textOn="F_12"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/selectText"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView6" />
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
